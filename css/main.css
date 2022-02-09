@@ -1,0 +1,78 @@
+body
+{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: oblique;
+}
+#left-corner
+{
+    float: left;
+    margin-top: -50px;
+}
+
+#right-corner
+{
+    float: right;
+    margin-top: -50px;
+}
+
+/* The sidebar menu */
+.sidenav
+{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+/* Nav links */
+.sidenav a
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: gold;
+    display: block;
+}
+  
+.sidenav a:hover
+{
+    color: pink;
+}
+  
+/* Page content */
+.main
+{
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+#blurb
+{
+    margin-left: 350px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+#goals
+{
+    margin-top: -100px;
+    display: block;
+    width: 25%;
+}
+
+#links
+{
+    float: right;
+    margin-top: -200px;
+}
+
+#links a
+{
+    text-decoration: none;
+    color: red;
+}
