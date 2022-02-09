@@ -1,9 +1,8 @@
 body
 {
-    background-color: yellow;
-    color: red;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    background-color: white;
+    color: grey;
+    font-family: 'Times New Roman';
 }
 
 .ttl
@@ -13,24 +12,19 @@ body
     font-size: 50px;
 }
 
-ul
-{
-    list-style-image: url('../img/mag-glass.png');
-}
-
 footer
 {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: yellow;
+    background-color: grey;
+    color: white;
     text-align: center;
 }
 
 footer a
 {
     text-decoration: none;
-    color: yellow;
+    color: white;
 }
