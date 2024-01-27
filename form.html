@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
     <head>
         <title>Form</title>
         <link rel="stylesheet" type="text/css" href="css/layout.css"/>
@@ -21,21 +21,22 @@
             <div>
                 <h1>Fill out this form for results</h1>
                 <form>
-                    First name: 
-                    <input type="text" name="FullName">
+                     <label for="firstName">First Name:</label> 
+                    <input type="text" id="firstName" name="firstName">
+                    <br><br>
+                     <label for="middeleName">Middle Name:</label>
+                    <input type="text" id="middeleName" name="middeleName">
+                    <br><br>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName">
+                    <br><br>
+                    <p>Select your preferred method of contact:</p>
+                    <label for="email">Email</label>
+                    <input type="radio" id="email" name="contactMethod" value="Email">
                     <br>
-                    Middle name: 
-                    <input type="text" name="lastname">
-                    <br>
-                    Last name: 
-                    <input type="text" name="firstname">
-                    <br>
-                    <input type="radio" name="random" value="option1">
-                    Option 1
-                    <br>
-                    <input type="radio" name="gender" value="dog">
-                    Option 2
-                    <br>
+                    <label for="phone">Phone</label>
+                    <input type="radio" id="phone" name="contactMethod" value="Phone">
+                    <br><br
                     <input type="submit" id="small" value="Enter">
                 </form>
             </div>
